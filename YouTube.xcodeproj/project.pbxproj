@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD39E29F1DFCA6EA00174609 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39E29E1DFCA6EA00174609 /* Extention.swift */; };
+		CD58B9791DFBF3E40043A3A2 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58B9781DFBF3E40043A3A2 /* Video.swift */; };
 		CD680F421DF5DDCA0006692D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD680F411DF5DDCA0006692D /* AppDelegate.swift */; };
-		CD680F441DF5DDCA0006692D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD680F431DF5DDCA0006692D /* ViewController.swift */; };
+		CD680F441DF5DDCA0006692D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD680F431DF5DDCA0006692D /* HomeController.swift */; };
 		CD680F471DF5DDCA0006692D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD680F451DF5DDCA0006692D /* Main.storyboard */; };
 		CD680F491DF5DDCA0006692D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD680F481DF5DDCA0006692D /* Assets.xcassets */; };
 		CD680F4C1DF5DDCA0006692D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD680F4A1DF5DDCA0006692D /* LaunchScreen.storyboard */; };
+		CD6FCBCE1DF7FAA900A158C4 /* menuBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FCBCD1DF7FAA900A158C4 /* menuBar.xib */; };
+		CD6FCBD01DF8017900A158C4 /* menuBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FCBCF1DF8017900A158C4 /* menuBarCell.xib */; };
+		CD6FCBD21DF8019900A158C4 /* menuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FCBD11DF8019900A158C4 /* menuBarCell.swift */; };
+		CD9F42621DFBFEF700E97440 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F42611DFBFEF700E97440 /* Channel.swift */; };
+		CDA10A601DF6EEB600C24E29 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA10A5F1DF6EEB600C24E29 /* VideoCollectionViewCell.swift */; };
+		CDDB44481DF74CEF00A6E299 /* menuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB44471DF74CEF00A6E299 /* menuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD39E29E1DFCA6EA00174609 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		CD58B9781DFBF3E40043A3A2 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		CD680F3E1DF5DDCA0006692D /* YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD680F411DF5DDCA0006692D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD680F431DF5DDCA0006692D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD680F431DF5DDCA0006692D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		CD680F461DF5DDCA0006692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD680F481DF5DDCA0006692D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD680F4B1DF5DDCA0006692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD680F4D1DF5DDCA0006692D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6FCBCD1DF7FAA900A158C4 /* menuBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuBar.xib; sourceTree = "<group>"; };
+		CD6FCBCF1DF8017900A158C4 /* menuBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuBarCell.xib; sourceTree = "<group>"; };
+		CD6FCBD11DF8019900A158C4 /* menuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuBarCell.swift; sourceTree = "<group>"; };
+		CD9F42611DFBFEF700E97440 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		CDA10A5F1DF6EEB600C24E29 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDDB44471DF74CEF00A6E299 /* menuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD39E29D1DFCA68600174609 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CD39E29E1DFCA6EA00174609 /* Extention.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CD58B9771DFBF3630043A3A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD58B9781DFBF3E40043A3A2 /* Video.swift */,
+				CD9F42611DFBFEF700E97440 /* Channel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		CD680F351DF5DDCA0006692D = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +87,45 @@
 		CD680F401DF5DDCA0006692D /* YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				CD39E29D1DFCA68600174609 /* Helpers */,
+				CD58B9771DFBF3630043A3A2 /* Model */,
+				CDFDB6431DF9FDF100258940 /* XIB */,
+				CDDB44431DF74ACB00A6E299 /* Controller */,
+				CDDB44441DF74AEC00A6E299 /* View */,
 				CD680F411DF5DDCA0006692D /* AppDelegate.swift */,
-				CD680F431DF5DDCA0006692D /* ViewController.swift */,
 				CD680F451DF5DDCA0006692D /* Main.storyboard */,
-				CD680F481DF5DDCA0006692D /* Assets.xcassets */,
 				CD680F4A1DF5DDCA0006692D /* LaunchScreen.storyboard */,
+				CD680F481DF5DDCA0006692D /* Assets.xcassets */,
 				CD680F4D1DF5DDCA0006692D /* Info.plist */,
 			);
 			path = YouTube;
+			sourceTree = "<group>";
+		};
+		CDDB44431DF74ACB00A6E299 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD680F431DF5DDCA0006692D /* HomeController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CDDB44441DF74AEC00A6E299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDA10A5F1DF6EEB600C24E29 /* VideoCollectionViewCell.swift */,
+				CDDB44471DF74CEF00A6E299 /* menuBar.swift */,
+				CD6FCBD11DF8019900A158C4 /* menuBarCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CDFDB6431DF9FDF100258940 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				CD6FCBCD1DF7FAA900A158C4 /* menuBar.xib */,
+				CD6FCBCF1DF8017900A158C4 /* menuBarCell.xib */,
+			);
+			name = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +190,8 @@
 			files = (
 				CD680F4C1DF5DDCA0006692D /* LaunchScreen.storyboard in Resources */,
 				CD680F491DF5DDCA0006692D /* Assets.xcassets in Resources */,
+				CD6FCBCE1DF7FAA900A158C4 /* menuBar.xib in Resources */,
+				CD6FCBD01DF8017900A158C4 /* menuBarCell.xib in Resources */,
 				CD680F471DF5DDCA0006692D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD680F441DF5DDCA0006692D /* ViewController.swift in Sources */,
+				CD39E29F1DFCA6EA00174609 /* Extention.swift in Sources */,
+				CD9F42621DFBFEF700E97440 /* Channel.swift in Sources */,
+				CDDB44481DF74CEF00A6E299 /* menuBar.swift in Sources */,
+				CD58B9791DFBF3E40043A3A2 /* Video.swift in Sources */,
+				CD6FCBD21DF8019900A158C4 /* menuBarCell.swift in Sources */,
+				CDA10A601DF6EEB600C24E29 /* VideoCollectionViewCell.swift in Sources */,
+				CD680F441DF5DDCA0006692D /* HomeController.swift in Sources */,
 				CD680F421DF5DDCA0006692D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +374,7 @@
 				CD680F521DF5DDCA0006692D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
