@@ -10,8 +10,9 @@ import UIKit
 
 class VideoCollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var thumbnail: UIImageView!
-    @IBOutlet weak var profile: UIImageView!
+
+    @IBOutlet weak var thumbnail: CustomeImageView!
+    @IBOutlet weak var profile: CustomeImageView!
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var titleConstraint: NSLayoutConstraint!
     @IBOutlet weak var subtitle: UILabel!
@@ -30,12 +31,12 @@ class VideoCollectionViewCell: UICollectionViewCell {
     
     func setupThumbnail() {
         if let thumbnailImage = video?.thumbnailImageName {
-            self.thumbnail.loadImageUsingUrlString(urlString: thumbnailImage)
+            self.thumbnail.loadImageUsingUrlString(thumbnailImage)
         }
     }
     func setupProfile() {
         if let profileImage = video?.channel?.channelProfileImageName {
-            self.profile.loadImageUsingUrlString(urlString: profileImage)
+            self.profile.loadImageUsingUrlString(profileImage)
         }
     }
     
@@ -51,13 +52,13 @@ class VideoCollectionViewCell: UICollectionViewCell {
     
     func setupTitle(){
         self.title.text = video?.videoTitle
-        let titleSize = self.title.sizeThatFits(self.title.layer.bounds.size)
-        if (titleSize.height >= 35){
-            self.titleConstraint.constant = 44
-            self.title.adjustsFontSizeToFitWidth = true
-        }else{
-            self.titleConstraint.constant = 20
-        }
+//        let titleSize = self.title.sizeThatFits(self.title.layer.bounds.size)
+//        if (titleSize.height >= 35){
+//            self.titleConstraint.constant = 44
+//            self.title.adjustsFontSizeToFitWidth = true
+//        }else{
+//            self.titleConstraint.constant = 20
+//        }
     }
 }
 

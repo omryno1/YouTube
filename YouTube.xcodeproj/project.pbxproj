@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0720D01DFED95A00126825 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0720CF1DFED95A00126825 /* Setting.swift */; };
+		CD2B305F1E0297FE00CB54B1 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B305E1E0297FE00CB54B1 /* ApiService.swift */; };
+		CD2B30611E02C8F800CB54B1 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B30601E02C8F800CB54B1 /* FeedCell.swift */; };
+		CD2B30631E02CC5F00CB54B1 /* HomeBackupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2B30621E02CC5F00CB54B1 /* HomeBackupViewController.swift */; };
 		CD39E29F1DFCA6EA00174609 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD39E29E1DFCA6EA00174609 /* Extention.swift */; };
+		CD3DB7FF1E08132700D5D00B /* TrendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DB7FE1E08132700D5D00B /* TrendingCell.swift */; };
+		CD3DB8011E08230800D5D00B /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3DB8001E08230800D5D00B /* SubscriptionCell.swift */; };
 		CD58B9791DFBF3E40043A3A2 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58B9781DFBF3E40043A3A2 /* Video.swift */; };
 		CD680F421DF5DDCA0006692D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD680F411DF5DDCA0006692D /* AppDelegate.swift */; };
 		CD680F441DF5DDCA0006692D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD680F431DF5DDCA0006692D /* HomeController.swift */; };
@@ -17,13 +23,23 @@
 		CD6FCBCE1DF7FAA900A158C4 /* menuBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FCBCD1DF7FAA900A158C4 /* menuBar.xib */; };
 		CD6FCBD01DF8017900A158C4 /* menuBarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6FCBCF1DF8017900A158C4 /* menuBarCell.xib */; };
 		CD6FCBD21DF8019900A158C4 /* menuBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6FCBD11DF8019900A158C4 /* menuBarCell.swift */; };
+		CD852F091DFDE0370022D960 /* SettingsLuncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD852F081DFDE0370022D960 /* SettingsLuncher.swift */; };
 		CD9F42621DFBFEF700E97440 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9F42611DFBFEF700E97440 /* Channel.swift */; };
 		CDA10A601DF6EEB600C24E29 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA10A5F1DF6EEB600C24E29 /* VideoCollectionViewCell.swift */; };
+		CDC141AF1DFEB05F00FED14B /* settingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC141AE1DFEB05F00FED14B /* settingsCell.swift */; };
 		CDDB44481DF74CEF00A6E299 /* menuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDB44471DF74CEF00A6E299 /* menuBar.swift */; };
+		CDFA870F1E02D2030074D4A7 /* VideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFA870E1E02D2030074D4A7 /* VideoCell.xib */; };
+		CDFA87131E02D36A0074D4A7 /* Video.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDFA87121E02D36A0074D4A7 /* Video.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0720CF1DFED95A00126825 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		CD2B305E1E0297FE00CB54B1 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		CD2B30601E02C8F800CB54B1 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		CD2B30621E02CC5F00CB54B1 /* HomeBackupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBackupViewController.swift; sourceTree = "<group>"; };
 		CD39E29E1DFCA6EA00174609 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		CD3DB7FE1E08132700D5D00B /* TrendingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingCell.swift; sourceTree = "<group>"; };
+		CD3DB8001E08230800D5D00B /* SubscriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
 		CD58B9781DFBF3E40043A3A2 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		CD680F3E1DF5DDCA0006692D /* YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD680F411DF5DDCA0006692D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,9 +51,13 @@
 		CD6FCBCD1DF7FAA900A158C4 /* menuBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuBar.xib; sourceTree = "<group>"; };
 		CD6FCBCF1DF8017900A158C4 /* menuBarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = menuBarCell.xib; sourceTree = "<group>"; };
 		CD6FCBD11DF8019900A158C4 /* menuBarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuBarCell.swift; sourceTree = "<group>"; };
+		CD852F081DFDE0370022D960 /* SettingsLuncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsLuncher.swift; sourceTree = "<group>"; };
 		CD9F42611DFBFEF700E97440 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		CDA10A5F1DF6EEB600C24E29 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		CDC141AE1DFEB05F00FED14B /* settingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsCell.swift; sourceTree = "<group>"; };
 		CDDB44471DF74CEF00A6E299 /* menuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuBar.swift; sourceTree = "<group>"; };
+		CDFA870E1E02D2030074D4A7 /* VideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoCell.xib; sourceTree = "<group>"; };
+		CDFA87121E02D36A0074D4A7 /* Video.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Video.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD2B305D1E0297E300CB54B1 /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B305E1E0297FE00CB54B1 /* ApiService.swift */,
+			);
+			name = ApiService;
+			sourceTree = "<group>";
+		};
 		CD39E29D1DFCA68600174609 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +92,7 @@
 			children = (
 				CD58B9781DFBF3E40043A3A2 /* Video.swift */,
 				CD9F42611DFBFEF700E97440 /* Channel.swift */,
+				CD0720CF1DFED95A00126825 /* Setting.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -87,6 +116,7 @@
 		CD680F401DF5DDCA0006692D /* YouTube */ = {
 			isa = PBXGroup;
 			children = (
+				CD2B305D1E0297E300CB54B1 /* ApiService */,
 				CD39E29D1DFCA68600174609 /* Helpers */,
 				CD58B9771DFBF3630043A3A2 /* Model */,
 				CDFDB6431DF9FDF100258940 /* XIB */,
@@ -101,10 +131,25 @@
 			path = YouTube;
 			sourceTree = "<group>";
 		};
+		CDC141AD1DFEB03900FED14B /* Costum Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CD2B30601E02C8F800CB54B1 /* FeedCell.swift */,
+				CD3DB8001E08230800D5D00B /* SubscriptionCell.swift */,
+				CD3DB7FE1E08132700D5D00B /* TrendingCell.swift */,
+				CDA10A5F1DF6EEB600C24E29 /* VideoCollectionViewCell.swift */,
+				CD6FCBD11DF8019900A158C4 /* menuBarCell.swift */,
+				CDC141AE1DFEB05F00FED14B /* settingsCell.swift */,
+			);
+			name = "Costum Cells";
+			sourceTree = "<group>";
+		};
 		CDDB44431DF74ACB00A6E299 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				CD680F431DF5DDCA0006692D /* HomeController.swift */,
+				CD852F081DFDE0370022D960 /* SettingsLuncher.swift */,
+				CD2B30621E02CC5F00CB54B1 /* HomeBackupViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -112,9 +157,8 @@
 		CDDB44441DF74AEC00A6E299 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CDA10A5F1DF6EEB600C24E29 /* VideoCollectionViewCell.swift */,
+				CDC141AD1DFEB03900FED14B /* Costum Cells */,
 				CDDB44471DF74CEF00A6E299 /* menuBar.swift */,
-				CD6FCBD11DF8019900A158C4 /* menuBarCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -124,6 +168,8 @@
 			children = (
 				CD6FCBCD1DF7FAA900A158C4 /* menuBar.xib */,
 				CD6FCBCF1DF8017900A158C4 /* menuBarCell.xib */,
+				CDFA870E1E02D2030074D4A7 /* VideoCell.xib */,
+				CDFA87121E02D36A0074D4A7 /* Video.xib */,
 			);
 			name = XIB;
 			sourceTree = "<group>";
@@ -191,7 +237,9 @@
 				CD680F4C1DF5DDCA0006692D /* LaunchScreen.storyboard in Resources */,
 				CD680F491DF5DDCA0006692D /* Assets.xcassets in Resources */,
 				CD6FCBCE1DF7FAA900A158C4 /* menuBar.xib in Resources */,
+				CDFA870F1E02D2030074D4A7 /* VideoCell.xib in Resources */,
 				CD6FCBD01DF8017900A158C4 /* menuBarCell.xib in Resources */,
+				CDFA87131E02D36A0074D4A7 /* Video.xib in Resources */,
 				CD680F471DF5DDCA0006692D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,10 +253,18 @@
 			files = (
 				CD39E29F1DFCA6EA00174609 /* Extention.swift in Sources */,
 				CD9F42621DFBFEF700E97440 /* Channel.swift in Sources */,
+				CD3DB7FF1E08132700D5D00B /* TrendingCell.swift in Sources */,
+				CD2B305F1E0297FE00CB54B1 /* ApiService.swift in Sources */,
 				CDDB44481DF74CEF00A6E299 /* menuBar.swift in Sources */,
+				CD852F091DFDE0370022D960 /* SettingsLuncher.swift in Sources */,
+				CD3DB8011E08230800D5D00B /* SubscriptionCell.swift in Sources */,
+				CDC141AF1DFEB05F00FED14B /* settingsCell.swift in Sources */,
 				CD58B9791DFBF3E40043A3A2 /* Video.swift in Sources */,
+				CD0720D01DFED95A00126825 /* Setting.swift in Sources */,
 				CD6FCBD21DF8019900A158C4 /* menuBarCell.swift in Sources */,
 				CDA10A601DF6EEB600C24E29 /* VideoCollectionViewCell.swift in Sources */,
+				CD2B30611E02C8F800CB54B1 /* FeedCell.swift in Sources */,
+				CD2B30631E02CC5F00CB54B1 /* HomeBackupViewController.swift in Sources */,
 				CD680F441DF5DDCA0006692D /* HomeController.swift in Sources */,
 				CD680F421DF5DDCA0006692D /* AppDelegate.swift in Sources */,
 			);
@@ -335,9 +391,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 79LH43EPL7;
 				INFOPLIST_FILE = YouTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ODAT.YouTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -348,9 +406,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 79LH43EPL7;
 				INFOPLIST_FILE = YouTube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ODAT.YouTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
