@@ -48,13 +48,6 @@ class menuBar: UIView, UICollectionViewDataSource,UICollectionViewDelegate, UICo
     
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        let xPosition = CGFloat(indexPath.item) * self.menuBarCollectionView.frame.width / 4
-//        self.horizontalLineLeftConstraint?.constant = xPosition
-//        UIView.animate(withDuration: 0.75, delay: 0, usingSpringWithDamping: 0.5, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
-//            self.layoutIfNeeded()
-//            
-//        }, completion: nil)
-        
         self.homeController?.scrollToMenuAtIndexPath(menuIndex: indexPath.item)
         
     }

@@ -10,7 +10,7 @@ import UIKit
 
 class HomeController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UICollectionViewDelegate{
     
-
+    
     @IBOutlet var viewControllerView: UIView!
     
     @IBOutlet weak var menuBarUIView: menuBar!
@@ -18,9 +18,9 @@ class HomeController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     @IBOutlet weak var navBarSearchButton: UIBarButtonItem!
     
     @IBOutlet weak var navBarMoreButton: UIBarButtonItem!
-
+    
     @IBOutlet weak var mainCollectionView: UICollectionView!
-
+    
     
     @IBAction func moreSettingsButton(_ sender: UIBarButtonItem) {
         
@@ -31,25 +31,27 @@ class HomeController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     var videos : [Video]?
     let settingsLuncher = SettingsLuncher()
     private var lastContantOffset: CGFloat = 0.0
+    let titleFotNavBar = ["Home","Trending","Subscription","Account"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavBar()
         setupMenuBar()
         setupMainCollectioView()
-
+        
     }
-
+    
     func setupNavBar(){
         //Setting the ViewController Background
         self.viewControllerView.backgroundColor = UIColor(colorLiteralRed: 230/255, green: 32/255, blue: 31/255, alpha: 1)
-        
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width - (32), height: 50))
-        titleLabel.text = " Home"
         titleLabel.font = UIFont.systemFont(ofSize: 20)
         titleLabel.textColor = UIColor.white
         navigationItem.titleView = titleLabel
-    
+        
+        //Assigning the initial Home Title
+        setTitleLableForIndex(index: 0)
+        
         navigationController?.navigationBar.isTranslucent = false
         navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 230/255, green: 32/255, blue: 31/255, alpha: 1)
         
@@ -73,6 +75,11 @@ class HomeController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
         mainCollectionView.register(SubscriptionCell.self, forCellWithReuseIdentifier: "subscriptionCell")
     }
     
+    private func setTitleLableForIndex(index: Int){
+        if let titleLabel = navigationItem.titleView as? UILabel{
+            titleLabel.text = "  \(titleFotNavBar[index])"
+        }
+    }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
         return 4
@@ -107,17 +114,19 @@ class HomeController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         menuBarUIView.horizontalLineLeftConstraint?.constant = mainCollectionView.contentOffset.x / 4
     }
-
+    
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
-        let index = targetContentOffset.pointee.x / view.frame.width 
+        let index = targetContentOffset.pointee.x / view.frame.width
         let indexPath = IndexPath(item: Int(index), section: 0)
         menuBarUIView.menuBarCollectionView.selectItem(at: indexPath, animated: true, scrollPosition: UICollectionViewScrollPosition())
+        setTitleLableForIndex(index: indexPath.item)
     }
-
+    
     func scrollToMenuAtIndexPath(menuIndex : Int){
         let index = IndexPath(item: menuIndex, section: 0)
         mainCollectionView.scrollToItem(at: index, at: UICollectionViewScrollPosition(), animated: true)
+        setTitleLableForIndex(index: menuIndex)
     }
-
+    
 }
 
