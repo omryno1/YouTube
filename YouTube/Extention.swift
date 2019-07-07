@@ -29,7 +29,7 @@ class CustomeImageView: UIImageView {
         
         URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
             if (error != nil){
-                print (error as! NSError)
+                print (error! as NSError)
             }
             // Bounce back to the main thread to update the UI
             DispatchQueue.main.async(execute: {

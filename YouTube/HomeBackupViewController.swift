@@ -82,7 +82,7 @@ class HomeBackUpController: UIViewController, UICollectionViewDelegateFlowLayout
     
     func setupNavBar(){
         //Setting the ViewController Background
-        self.viewControllerView.backgroundColor = UIColor(colorLiteralRed: 230/255, green: 32/255, blue: 31/255, alpha: 1)
+        self.viewControllerView.backgroundColor = UIColor(red: 230/255, green: 32/255, blue: 31/255, alpha: 1)
         
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width - (32), height: 50))
         titleLabel.text = " Home"
@@ -91,7 +91,7 @@ class HomeBackUpController: UIViewController, UICollectionViewDelegateFlowLayout
         navigationItem.titleView = titleLabel
         
         navigationController?.navigationBar.isTranslucent = false
-        navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 230/255, green: 32/255, blue: 31/255, alpha: 1)
+        navigationController?.navigationBar.barTintColor = UIColor(red: 230/255, green: 32/255, blue: 31/255, alpha: 1)
         
         //Get rid of the navigation bar shadow
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)

@@ -33,7 +33,7 @@ class ApiService: NSObject {
         URLSession.shared.dataTask(with: url!) {
             (data, response, error) in
             if (error != nil){
-                print (error as! NSError)
+                print (error! as NSError)
                 return
             }
             do{

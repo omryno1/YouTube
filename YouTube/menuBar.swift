@@ -23,7 +23,8 @@ class menuBar: UIView, UICollectionViewDataSource,UICollectionViewDelegate, UICo
         self.addSubview(menuBarCollectionView)
         menuBarCollectionView.delegate = self
         menuBarCollectionView.dataSource = self
-        menuBarCollectionView.backgroundColor =  UIColor(colorLiteralRed: 230/255, green: 32/255, blue: 31/255, alpha: 1)
+        menuBarCollectionView.backgroundColor =  UIColor(red: 230/255, green: 32/255, blue: 31/255, alpha: 1)
+        
         
         let selectedIndexPath = IndexPath(item: 0, section: 0)
         menuBarCollectionView.selectItem(at: selectedIndexPath, animated: false, scrollPosition: UICollectionViewScrollPosition())

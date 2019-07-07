@@ -19,12 +19,12 @@ class menuBarCell: UICollectionViewCell {
     
     override var isHighlighted: Bool{
         didSet{
-            menuBarImageView.tintColor = isHighlighted ? UIColor.white : UIColor(colorLiteralRed: 91/255, green: 14/255, blue: 12/255, alpha: 1)
+            menuBarImageView.tintColor = isHighlighted ? UIColor.white : UIColor(red: 91/255, green: 14/255, blue: 12/255, alpha: 1)
         }
     }
         override var isSelected: Bool{
         didSet{
-            menuBarImageView.tintColor = isSelected ? UIColor.white : UIColor(colorLiteralRed: 91/255, green: 14/255, blue: 12/255, alpha: 1)
+            menuBarImageView.tintColor = isSelected ? UIColor.white : UIColor(red: 91/255, green: 14/255, blue: 12/255, alpha: 1)
         }
     }
 

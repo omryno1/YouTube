@@ -43,7 +43,7 @@ class SettingsLuncher: NSObject ,UICollectionViewDelegate,UICollectionViewDataSo
         }
     }
     
-    func handleDismiss() {
+    @objc func handleDismiss() {
         UIView.animate(withDuration: 0.5, animations: {
             self.blackView.alpha = 0
             
