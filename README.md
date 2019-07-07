@@ -7,9 +7,9 @@ This is the very first app that iv'e build, iv'e learned everything in this app 
 * This is also the first time iv'e started working with a JSON file*
 
 
-![Alt text](https://drive.google.com/uc?export=view&id=1tYsrnni5Je96oi9RHe3n7gojfa2iNfXE "Main Page")
+![Alt text](https://drive.google.com/uc?export=view&id=1Mcyxm99xB1mIXz0n7QQi1qjVoXAximlm "Main Page")
 
-![Alt text](https://drive.google.com/uc?export=view&id=1tYsrnni5Je96oi9RHe3n7gojfa2iNfXE "crolling between pageds")
+![Alt text](https://drive.google.com/uc?export=view&id=1IIbIJF2CrqKodrI6z5ol7nNxaJKZZdiO "crolling between pageds")
 
 ![Alt text](https://drive.google.com/uc?export=view&id=1Kdc7qZ_gNfpPKGx9npqoqK6LLDoMozFl "Settings button")
 
