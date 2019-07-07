@@ -7,7 +7,7 @@ This is the very first app that iv'e build, iv'e learned everything in this app 
 * This is also the first time iv'e started working with a JSON file*
 
 
-![Alt text](https://s28.postimg.org/he88ff33h/Screen_Shot_2017-04-24_at_10.41.37.png "Main Page")
+![Alt text](https://drive.google.com/uc?export=view&id=1Kdc7qZ_gNfpPKGx9npqoqK6LLDoMozFl "Main Page")
 
 ![Alt text](https://s17.postimg.org/9oilcdvpr/Screen_Shot_2017-04-24_at_10.42.17.png "crolling between pageds")
 
